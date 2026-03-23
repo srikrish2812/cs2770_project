@@ -1,4 +1,5 @@
 models/
 data/vqa-rad/
 data/medtrinity-25m/
-
+data/vqa_rad_full
+.ipynb_checkpoints/
