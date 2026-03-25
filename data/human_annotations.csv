@@ -1,0 +1,51 @@
+qid,image_name,image_organ,question,question_type,answer_type,phrase_type,split,gt_answer,gt_normalized,pred_raw,pred_normalized,exact_match,contains,llm_judge,llm_judge_correct,human_label
+746,synpic24424.jpg,ABD,what is the composition of the mass?,ATTRIB,OPEN,freeform,train,fat,fat,Fat,fat,True,True,CORRECT,True,CORRECT
+1914,synpic60543.jpg,HEAD,The image probably had what incidental finding?,PRES,OPEN,test_para,test,cavum vergae,cavum vergae,Brain,brain,False,False,INCORRECT,False,INCORRECT
+1423,synpic28210.jpg,ABD,What organ exhibits pathology,ABN,OPEN,para,train,jejunum,jejunum,Liver,liver,False,False,INCORRECT,False,INCORRECT
+205,synpic55948.jpg,HEAD,How would you describe the abnormality?,ATTRIB,OPEN,para,train,Diffuse,diffuse,Cyst,cyst,False,False,INCORRECT,False,INCORRECT
+1201,synpic28277.jpg,ABD,What material is the peripheral hypodensity?,PRES,OPEN,para,train,Fat,fat,Fat,fat,True,True,CORRECT,True,CORRECT
+280,synpic21044.jpg,CHEST,Which sign do you see in the aortopulmonary window in this image?,PRES,OPEN,test_freeform,test,middle mogul,middle mogul,None,none,False,False,INCORRECT,False,INCORRECT
+418,synpic33689.jpg,ABD,How would you describe the duodenum?,ATTRIB,OPEN,para,train,Edematous,edematous,Small,small,False,False,INCORRECT,False,INCORRECT
+2163,synpic31394.jpg,CHEST,What is the pathology seen in this image?,ABN,OPEN,para,train,pulmonary nodules,pulmonary nodules,Lung,lung,False,False,INCORRECT,False,INCORRECT
+1920,synpic31116.jpg,HEAD,How would you describe the central and surrounding intesities of the abnormality seen?,COLOR,OPEN,para,train,central hyperintensity and surrounding hypointensity,central hyperintensity and surrounding hypointensity,Diffuse,diffuse,False,False,INCORRECT,False,INCORRECT
+1957,synpic52282.jpg,HEAD,What structure in the left basal ganglia is spared?,ABN,OPEN,freeform,train,Left thalamus,left thalamus,Thalamus,thalamus,False,True,CORRECT,True,CORRECT
+1960,synpic42951.jpg,HEAD,What is the condition seen in this image?,ABN,OPEN,para,train,small subdural hematoma with cerebral edema,small subdural hematoma with cerebral edema,Brain,brain,False,False,CORRECT,True,INCORRECT
+2174,synpic27277.jpg,CHEST,What organ system is shown in the above image?,ORGAN,OPEN,freeform,train,cardiopulmonary,cardiopulmonary,Respiratory,respiratory,False,False,CORRECT,True,CORRECT
+2162,synpic31394.jpg,CHEST,How would you describe the pathology seen in the above image?,ATTRIB,OPEN,freeform,train,"Rounded, well-defined pulmonary nodules varying in size and pattern","rounded, well-defined pulmonary nodules varying in size and pattern",Lung,lung,False,False,INCORRECT,False,INCORRECT
+941,synpic41119.jpg,ABD,Which plane is the image shown in?,PLANE,OPEN,para,train,Axial,axial,X,x,False,True,CORRECT,True,INCORRECT
+1057,synpic42805.jpg,CHEST,Which lobes of the lung contain a higher density of masses?,POS,OPEN,para,train,Upper lobes,upper lobes,Right,right,False,False,CORRECT,True,INCORRECT
+1437,synpic56061.jpg,HEAD,What plane was used in this image?,PLANE,OPEN,test_para,test,axial,axial,Plane,plane,False,False,CORRECT,True,INCORRECT
+1969,synpic52282.jpg,HEAD,What vessel is likely the cause of this infarction?,OTHER,OPEN,freeform,train,left MCA,left mca,Artery,artery,False,False,INCORRECT,False,CORRECT
+297,synpic46720.jpg,HEAD,Where is the abnormality?,POS,OPEN,freeform,train,Right PCA,right pca,Brain,brain,False,False,INCORRECT,False,INCORRECT
+998,synpic60254.jpg,HEAD,What cranial nerves may be affected by the lesion seen in the above image?,ABN,OPEN,freeform,train,Oculomotor nerve (CN III) and Trigeminal nerves (CN V),oculomotor nerve (cn iii) and trigeminal nerves (cn v),"V, VII","v, vii",False,False,INCORRECT,False,INCORRECT
+889,synpic53097.jpg,HEAD,What is the location of the mass?,SIZE,OPEN,para,train,Pineal gland,pineal gland,Brain,brain,False,False,CORRECT,True,INCORRECT
+1261,synpic31217.jpg,CHEST,Where is the abnormality?,POS,OPEN,freeform,train,Right lung,right lung,Lung,lung,False,True,CORRECT,True,INCORRECT
+1859,synpic47964.jpg,HEAD,What type of modality was this image taken?,MODALITY,OPEN,freeform,train,MRI - T2 Weighted,mri - t2 weighted,Mri,mri,False,True,CORRECT,True,CORRECT
+1991,synpic60831.jpg,HEAD,What is abnormal in this image?,ABN,OPEN,freeform,train,abnormal hyperintensity in the right occipital lobe,abnormal hyperintensity in the right occipital lobe,Brain,brain,False,False,CORRECT,True,CORRECT
+871,synpic45634.jpg,HEAD,What is one adjective to describe the lesion(s)?,ATTRIB,OPEN,freeform,train,Loculated,loculated,Large,large,False,False,INCORRECT,False,INCORRECT
+997,synpic51426.jpg,HEAD,What structures are located near the hemorrhage shown?,PRES,OPEN,test_freeform,test,Left thalamus and basal ganglia,left thalamus and basal ganglia,Blood vessels,blood vessels,False,False,INCORRECT,False,INCORRECT
+2235,synpic53228.jpg,CHEST,How many ribs are present in vertical order on this chest radiograph,COUNT,OPEN,para,train,12,12,12,12,True,True,CORRECT,True,CORRECT
+218,synpic23130.jpg,ABD,What density is the abnormality?,COLOR,OPEN,freeform,train,Hypodense,hypodense,High,high,False,False,INCORRECT,False,INCORRECT
+1249,synpic19232.jpg,CHEST,How are the borders of the lesion?,ATTRIB,OPEN,para,train,Smooth,smooth,Blurry,blurry,False,False,INCORRECT,False,INCORRECT
+1754,synpic47964.jpg,HEAD,What plane of section is the brain taken in?,PLANE,OPEN,para,train,Axial,axial,Coronal,coronal,False,False,INCORRECT,False,INCORRECT
+1033,synpic56422.jpg,HEAD,Which organ system is shown in the image?,ORGAN,OPEN,para,train,Brain,brain,Brain,brain,True,True,CORRECT,True,CORRECT
+1958,synpic52282.jpg,HEAD,What is spared in the left basal ganglia?,ABN,OPEN,para,train,Left thalamus,left thalamus,Nothing,nothing,False,False,INCORRECT,False,INCORRECT
+985,synpic17153.jpg,HEAD,What type of MRI is used to acquire this image?,MODALITY,OPEN,freeform,train,T2 weighted,t2 weighted,Brain,brain,False,False,CORRECT,True,CORRECT
+310,synpic46720.jpg,HEAD,What does the abnormality suggest?,OTHER,OPEN,freeform,train,Ischemia,ischemia,Brain damage,brain damage,False,False,INCORRECT,False,INCORRECT
+347,synpic24220.jpg,ABD,Where in this image are the bowel loops?,POS,OPEN,freeform,train,Left side,left side,Left,left,False,True,CORRECT,True,CORRECT
+1178,synpic34922.jpg,HEAD,Where is the lesion located?,POS,OPEN,para,train,Right temporal lobe,right temporal lobe,Brain,brain,False,False,CORRECT,True,CORRECT
+198,synpic56799.jpg,HEAD,How would you describe the lesion?,ATTRIB,OPEN,freeform,train,Ring-enhancing lesion,ring-enhancing lesion,Tumor,tumor,False,False,CORRECT,True,CORRECT
+182,synpic18319.jpg,CHEST,What abnormalities are seen within the lungs?,ABN,OPEN,test_freeform,test,Pulmonary nodules,pulmonary nodules,None,none,False,False,INCORRECT,False,INCORRECT
+375,synpic24390.jpg,CHEST,How wide is the heart compared to the thorax?,SIZE,OPEN,test_para,test,It is less than half the width of the thorax,it is less than half the width of the thorax,Wide,wide,False,False,INCORRECT,False,INCORRECT
+990,synpic46062.jpg,HEAD,What organ system is shown in the above image?,ORGAN,OPEN,freeform,train,Brain,brain,Brain,brain,True,True,CORRECT,True,CORRECT
+1951,synpic31116.jpg,HEAD,In what plane was this image taken?,PLANE,OPEN,freeform,train,axial,axial,3D,3d,False,False,INCORRECT,False,INCORRECT
+1892,synpic31928.jpg,HEAD,What condition is found in the above image?,ABN,OPEN,para,train,right subdural hematoma,right subdural hematoma,Brain,brain,False,False,CORRECT,True,INCORRECT
+991,synpic46062.jpg,HEAD,What is the organ system in this image?,ORGAN,OPEN,para,train,Brain,brain,Brain,brain,True,True,CORRECT,True,CORRECT
+710,synpic51926.jpg,ABD,in what system is the pathology?,ORGAN,OPEN,freeform,train,GI,gi,Digestive,digestive,False,False,CORRECT,True,CORRECT
+579,synpic43648.jpg,ABD,What are the dark areas at the top of the picture?,PRES,OPEN,para,train,Large bowel,large bowel,Lungs,lungs,False,False,INCORRECT,False,INCORRECT
+984,synpic17153.jpg,HEAD,MRI imaging modality used for this image?,MODALITY,OPEN,para,train,T2 weighted,t2 weighted,MRI,mri,False,False,CORRECT,True,INCORRECT
+274,synpic29219.jpg,ABD,Describe the lesions in the right kidney?,ATTRIB,OPEN,para,train,Cystic lesions,cystic lesions,Cyst,cyst,False,True,CORRECT,True,CORRECT
+976,synpic17738.jpg,CHEST,How large is the mass in the right upper quadrant?,SIZE,OPEN,test_freeform,test,3.4 cm,3.4 cm,Small,small,False,False,INCORRECT,False,INCORRECT
+940,synpic41119.jpg,ABD,What plane is this image in?,PLANE,OPEN,freeform,train,Axial,axial,X,x,False,True,CORRECT,True,INCORRECT
+906,synpic17693.jpg,CHEST,What plane is this X-ray in?,PLANE,OPEN,freeform,train,PA,pa,Body,body,False,False,INCORRECT,False,INCORRECT
+1933,synpic27198.jpg,ABD,What is the size and density of the lesion?,SIZE,OPEN,para,train,"5.6cm focal, predominantly hypodense","5.6cm focal, predominantly hypodense",Small,small,False,False,INCORRECT,False,INCORRECT

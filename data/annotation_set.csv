@@ -1,0 +1,111 @@
+qid,question,question_type,gt_normalized,pred_normalized,exact_match,contains
+1360,The imaging modality is...?,MODALITY,mri/flair,mri,False,True
+984,MRI imaging modality used for this image?,MODALITY,t2 weighted,mri,False,False
+1454,What imaging modality was used?,MODALITY,mr - flair,mri,False,False
+1851,What is the MRI modality depicted in this image?,MODALITY,flair,brain,False,False
+3,What type of imaging does this not represent?,MODALITY,ultrasound,mri,False,False
+1005,Imaging modality used to take this image?,MODALITY,pa xray,x ray,False,False
+1351,What laterality is this film?,MODALITY,pa,left,False,False
+1752,What imaging modality is seen here?,MODALITY,ct,ultrasound,False,False
+811,What type of imaging modality is this?,MODALITY,xray - plain film,x-ray,False,True
+1380,What imaging modality was used?,MODALITY,x-ray,x ray,False,False
+1546,What part of the body does this radiograph show?,ORGAN,chest,chest,True,True
+710,in what system is the pathology?,ORGAN,gi,digestive,False,False
+409,What organ system is primarily present in this image?,ORGAN,gastrointestinal,digestive,False,False
+1575,What organ is superimposed on the lung fields?,ORGAN,breasts,heart,False,False
+221,What organ is primarily evaluated in this image?,ORGAN,lungs,lung,False,True
+1144,What is located immediately inferior to the right hemidiaphragm?,ORGAN,the liver,lung,False,False
+991,What is the organ system in this image?,ORGAN,brain,brain,True,True
+1856,What organ is this image of?,ORGAN,brain,brain,True,True
+1882,What part of the CNS is this image showing?,ORGAN,brain,brain,True,True
+369,What are the two major organs present in this image?,ORGAN,heart 	lungs,heart and lungs,False,False
+343,Where is the lung lesion located?,POS,right lung,left,False,False
+1597,What side of the brain is the lesion on?,POS,right,left,False,False
+1981,Where are the infarcts located?,POS,diffuse,left,False,False
+1189,Where is the lesion located?,POS,left kidney,stomach,False,False
+1609,Where is the location of the mass?,POS,anterior mediastinum,lung,False,False
+448,Which side of the heart border is obscured?,POS,right,left,False,False
+1073,Where is the abnormal mass located with respect to the lungs?,POS,right upper lobe,left,False,False
+2030,Where in relation to the mass is the left kidney located in this image?,POS,posteriorly,left,False,False
+1022,Which hemisphere of the brain are the lesions located in?,POS,right hemisphere,left,False,False
+2173,Location of the multiple infarcts?,POS,cerebellum,brain,False,False
+29,In what plane is this image oriented?,PLANE,axial,horizontal,False,False
+490,What is the name of this image's plane?,PLANE,posteroanterior,body,False,False
+1952,What plane was this image taken in?,PLANE,axial,3d,False,False
+1754,What plane of section is the brain taken in?,PLANE,axial,coronal,False,False
+941,Which plane is the image shown in?,PLANE,axial,x,False,True
+1345,In what plane was this image taken?,PLANE,axial,front,False,False
+1763,What is the section level of this image?,PLANE,mid abdomen,section,False,False
+735,What plane is this film,PLANE,coronal,heart,False,False
+940,What plane is this image in?,PLANE,axial,x,False,True
+1832,What plane was this image taken in?,PLANE,axial,3d,False,False
+2221,how would you describe the liver?,ATTRIB,shrunken and nodular,large,False,False
+191,What is abnormal about the spleen?,ATTRIB,hypodense lesion,hole,False,False
+274,Describe the lesions in the right kidney?,ATTRIB,cystic lesions,cyst,False,True
+871,What is one adjective to describe the lesion(s)?,ATTRIB,loculated,large,False,False
+2162,How would you describe the pathology seen in the above image?,ATTRIB,"rounded, well-defined pulmonary nodules varying in size and pattern",lung,False,False
+1901,The infarcts seen are most likely what type?,ATTRIB,punctate,stroke,False,False
+418,How would you describe the duodenum?,ATTRIB,edematous,small,False,False
+1902,What types of infarcts are these most likely?,ATTRIB,punctate,stroke,False,False
+1674,How would you describe the R vertebral artery shape?,ATTRIB,short section irregular contour,round,False,False
+1246,What is the form of the mass?,ATTRIB,elliptical,round,False,False
+2000,What is filling the soft-tissue density seen in this image?,PRES,air,fat,False,False
+1085,What abnormality is present?,PRES,bleeding in the right posteroinferior cerebellum,tumor,False,False
+1212,What are the hyperdensities on the periphery of the image?,PRES,ribs,blood vessels,False,False
+1844,What type of hemorrhage is shown?,PRES,subarachnoid,subarachnoid,True,True
+1843,What category is the hemmorhage?,PRES,subarachnoid,brain,False,False
+489,What are these densities inside the intestines?,PRES,contrast,fat,False,False
+1672,Is the spleen present?,PRES,on the patient's left,yes,False,False
+901,What are the hyperdensities indicative of?,PRES,infarct,inflammation,False,False
+2029,What is indicated by the bright ring around the lesion?,PRES,necrosis,bleeding,False,False
+547,"What are the bright white structures, almost forming an X""?""",PRES,lateral ventricles,blood vessels,False,False
+1928,Describe the density of this lesion?,COLOR,"5.6cm focal, predominantly hypodense",high,False,False
+1920,How would you describe the central and surrounding intesities of the abnormality seen?,COLOR,central hyperintensity and surrounding hypointensity,diffuse,False,False
+218,What density is the abnormality?,COLOR,hypodense,high,False,False
+1919,Describe the intensity of the abnormality seen in this image? (central vs. surrounding),COLOR,central hyperintensity and surrounding hypointensity,central,False,True
+1596,What does the black area signify?,COLOR,black,tumor,False,False
+464,What is the radiological description of the color of the edema?,COLOR,hypodense,black,False,False
+382,"What is denser, the cystic lesions or the kidney parenchyma?",COLOR,cystic lesions,parenchyma,False,False
+1929,What is the density of the lesion?,COLOR,"5.6cm focal, predominantly hypodense",high,False,False
+1500,What is the signal intensity of the lesion?,COLOR,mixed intensity,low,False,False
+1759,How is the CSF enhancement characterized?,COLOR,non-enhanced,clear,False,False
+2045,What can be done to get to a diagnosis?,OTHER,biopsy,biopsy,True,True
+2106,What neuro deficits will are predicted by image location?,OTHER,"quadrantopia, aphasia, memory deficit, etc.",none,False,False
+702,What is the widened mediastinum caused by?,OTHER,mass,heart,False,False
+1136,Why is the right lung most common location for aspirations?,OTHER,the right mainstem bronchus is more in line with the trachea than the left,right side of body,False,False
+2073,What are the signs of contrast being used?,OTHER,aorta enhancement,no,False,False
+19,How is the patient oriented?,OTHER,posterior-anterior,left,False,False
+2044,what test or procedure might reveal the diagnosis?,OTHER,head/neck ct,xray,False,False
+1224,What is better identified on a PA CXR vs a lateral CXR?,OTHER,right vs left sided pathology,heart,False,False
+2053,What term is synonymous with lens-shaped?,OTHER,biconvex,oval,False,False
+902,What could cause this finding?,OTHER,congenital developmental disorder? history of surgery and past manipulation?,cancer,False,False
+1893,What pathology is seen in this image?,ABN,right subdural hematoma,brain,False,False
+241,What is happening in the right lung?,ABN,volume loss,nothing,False,False
+1423,What organ exhibits pathology,ABN,jejunum,liver,False,False
+1908,"On what side of the body is there pathology, and what is it?",ABN,right sided pleural effusion,left,False,False
+1299,What is the condition of the patient,ABN,blind loop syndrome,healthy,False,False
+1692,What does this represent?,ABN,hydropneumothorax,lung,False,False
+750,What is the pathology in this image?,ABN,cardiomegaly,cancer,False,False
+1330,What is the condition?,ABN,diverticulitis,inflammation,False,False
+642,what is the secondary pathology?,ABN,moderate edema,brain damage,False,False
+998,What cranial nerves may be affected by the lesion seen in the above image?,ABN,oculomotor nerve (cn iii) and trigeminal nerves (cn v),"v, vii",False,False
+330,How wide is the cardiac shadow?,SIZE,less than half the thorax,narrow,False,False
+335,How big is the liver lesion?,SIZE,5 cm,small,False,False
+1514,How big is the mass?,SIZE,6.5 x 6.2 x 8.8cm,large,False,False
+1625,How large is the mass?,SIZE,5mm,large,False,False
+1933,What is the size and density of the lesion?,SIZE,"5.6cm focal, predominantly hypodense",small,False,False
+977,Size of the mass in the right upper quadrant?,SIZE,3.4 cm,small,False,False
+1930,Describe the size of this lesion?,SIZE,"5.6cm focal, predominantly hypodense",small,False,False
+976,How large is the mass in the right upper quadrant?,SIZE,3.4 cm,small,False,False
+336,What is the size of the mass lesion?,SIZE,5 cm,large,False,False
+1931,What is the size of the lesion?,SIZE,"5.6cm focal, predominantly hypodense",small,False,False
+244,How many lesions are in the spleen?,COUNT,one,1,False,False
+2235,How many ribs are present in vertical order on this chest radiograph,COUNT,12,12,True,True
+361,How many lesions are present in the image?,COUNT,one,0,False,False
+2234,How many ribs are superimposed on the lung fields?,COUNT,12,24,False,False
+1683,How many kidneys are in this image?,COUNT,2,2,True,True
+1568,How many kidneys are visualizable in this image?,COUNT,2,2,True,True
+1511,How many gallstones are identified?,COUNT,4,0,False,False
+352,How many instances of intussusception are in the image?,COUNT,one,1,False,False
+1679,How many masses are there?,COUNT,one,2,False,False
+1712,How many masses are there?,COUNT,one,1,False,False
