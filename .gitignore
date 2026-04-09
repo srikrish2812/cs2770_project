@@ -4,7 +4,7 @@ data/medtrinity-25m/
 data/vqa_rad_full
 .ipynb_checkpoints/
 data/vqa-rad-cache
-data/
+data/medtrinity-demo/
 checkpoints/
 src/diffusion_pretrain_rtx6k.sbatch
 src/logs/
