@@ -9,3 +9,4 @@ checkpoints/
 src/diffusion_pretrain_rtx6k.sbatch
 src/logs/
 src/__pycache__/
+src/projection_align_rtx6k.sbatch
