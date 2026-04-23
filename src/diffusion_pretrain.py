@@ -79,6 +79,8 @@ def get_args():
     parser.add_argument("--save_every_epoch", type=int, default=1)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--fp16", action="store_true", default=True)
+    parser.add_argument("--freeze_layers", type=int, default=18,
+               help="Freeze first N of 24 encoder layers (18 = train last 6 only)")
 
     return parser.parse_args()
 

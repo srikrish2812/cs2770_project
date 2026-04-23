@@ -5,6 +5,9 @@ data/vqa_rad_full
 .ipynb_checkpoints/
 data/vqa-rad-cache
 data/medtrinity-demo/
+data/checkpoint_sweep/
+data/medtrinity-qa/
+data/residual_blend/
 checkpoints/
 src/diffusion_pretrain_rtx6k.sbatch
 src/logs/
